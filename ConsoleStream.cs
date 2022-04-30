@@ -3,7 +3,7 @@ using System.Text;
 
 namespace ConsoleStream;
 
-class ConsoleWriter
+public class ConsoleWriter
 {
     private readonly TextWriter _target;
     private ConsoleWriter(TextWriter target) => _target = target;
@@ -38,7 +38,7 @@ class ConsoleWriter
     public static ConsoleWriter operator <<(ConsoleWriter output, object value) => Write(output, value);
 }
 
-class ConsoleReader
+public class ConsoleReader
 {
     private readonly TextReader _source;
     private ConsoleReader(TextReader source) => _source = source;
