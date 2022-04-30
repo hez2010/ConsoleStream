@@ -2,6 +2,11 @@
 
 [![nuget](https://img.shields.io/nuget/vpre/Skyake.ConsoleStream.svg)](https://www.nuget.org/packages/Skyake.ConsoleStream)
 
+## Installation
+```bash
+dotnet add package Skyake.ConsoleStream
+```
+
 ## Usage
 
 ```csharp
