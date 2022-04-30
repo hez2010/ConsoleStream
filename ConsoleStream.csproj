@@ -5,10 +5,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
+    <PackageId>Skyake.ConsoleStream</PackageId>
+    <Version>1.0.0.0</Version>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <Description>Console I/O stream</Description>
+    <RepositoryUrl>https://github.com/hez2010/ConsoleStream</RepositoryUrl>
+    <Authors>Steven He</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
   </PropertyGroup>
 
   <ItemGroup>
     <Using Include="ConsoleStream.ConsoleReader" Static="True" />
     <Using Include="ConsoleStream.ConsoleWriter" Static="True" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
